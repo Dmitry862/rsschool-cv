@@ -1,8 +1,22 @@
+html {
+
+    background-image: url(https://img.freepik.com/premium-photo/abstract-background-design-rough-light-angel-blue_851755-22921.jpg?w=1380);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+    }
+    
+        
 li {color: rgb(0, 248, 103);}
 .phone {color: rgb(202, 194, 194);}
 .mail {color: brown;}
 .list {
-    background-color: blue;
+    
     border: 1px solid black;
     padding: 5px;
 }
