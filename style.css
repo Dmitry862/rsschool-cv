@@ -1,41 +1,4 @@
-
-html {
-
-    background-image: url(https://img.freepik.com/premium-vector/vector-abstract-background-from-a-grid-template-illustration-of-a-geometric-wavy-mesh_213497-1130.jpg?w=1480);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    
-    }
-  
-        
-li {color: rgb(0, 248, 103);}
-.phone {color: rgb(202, 194, 194);}
-.mail {color: brown;}
-
-.image {
-width: 50px;
-height: 50px;
-}
-
-.paragraph {
-width: 300px;
-height: 35px;
-padding: 10px;
-margin: 10px;
-border: 1px solid rgb(238, 164, 164);
-}
-
-div{
-    text-align:center
-}
-#navlist {
-    margin: 0;
+* {
     padding: 0;
-    list-style-type: none;
-  }
-  #navlist li { display: inline; }
+    margin: 0;
+}
