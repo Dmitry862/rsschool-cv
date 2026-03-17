@@ -7,4 +7,7 @@
 ** GitHub: https://github.com/dmitry862 **
 ** Telegram: @DmitryFT950 **
 
+## About myself
+
+I'm 42 years old. I am from a small village near Nizhny Novgorod city. I've already tried the basic RSS Front-end course. Now I want to refresh my knowledge before taking the basic course again.
 
