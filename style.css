@@ -5,6 +5,16 @@
 }
 body {
   margin: 0 auto;
+  background-color: rgb(77, 77, 77);
+}
+@font-face {
+  font-family: 'GreatVibes';
+  src: url(./assets/font/GreatVibes-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+.navigation {
+  padding: 20px 20px 20px 0;
 }
 .nav_list {
   display: flex;
@@ -16,5 +26,12 @@ body {
 .menu_item {
   display: flex;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 30px;
+  font-family: 'GreatVibes';
+  color: aliceblue;
+  transition: transform 0.8s ease;
+}
+a:hover {
+  transform: scale(1.2);
+  color: red;
 }
