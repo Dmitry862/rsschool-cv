@@ -63,3 +63,13 @@ h2 {
   text-indent: 2em;
   color: white;
 }
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts_list {
+  list-style-image: url(./assets/img/icons8.svg);
+  font-size: 32px;
+  color: white;
+}
