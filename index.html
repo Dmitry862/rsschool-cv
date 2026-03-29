@@ -9,20 +9,64 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navigation">
-            <ul class="nav_list">
-                <li><a class="menu_item" href="">About myself</a></li>
-                <li><a class="menu_item" href="">My Contacts</a></li>
-                <li><a class="menu_item" href="">Skills</a></li>
-                <li><a class="menu_item" href="">Code</a></li>
-                <li><a class="menu_item" href="">Courses</a></li>
-                <li><a class="menu_item" href="">Education</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main></main>
-    <footer></footer>
+    <div class="wrapper">
+        <header>
+            <nav class="navigation">
+                <ul class="nav_list">
+                    <li><a class="menu_item" href="">About myself</a></li>
+                    <li><a class="menu_item" href="">My Contacts</a></li>
+                    <li><a class="menu_item" href="">Skills</a></li>
+                    <li><a class="menu_item" href="">Code</a></li>
+                    <li><a class="menu_item" href="">Courses</a></li>
+                    <li><a class="menu_item" href="">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="aboutmyself">
+                <h1>Sokolov Dmitry</h1>
+                <img class="photo" src="./assets/img/photo1.jpg" alt="MyPhoto">
+                <h2>About Me</h2>
+                <p class="text"> I'm 42 years old. I am from a small village near Nizhny Novgorod city. I've already
+                    tried the basic
+                    RSS Front-end course. Now I want to refresh my knowledge before taking the basic course again.</p>
+            </section>
+            <section class="contacts">
+                <h2>My Contacts</h2>
+                <ul class="contacts_list">
+                    <li>Phone: +7900000000</li>
+                    <li>Email: rk3tt@mail.ru</li>
+                    <li>GitHub: <a href="https://github.com/dmitry862">https://github.com/dmitry862</a></li>
+                    <li>Telegram: @DmitryFT950</li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h2>SKILLS</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript Basic</li>
+                </ul>
+            </section>
+            <section class="code_examle">
+                <h2>CODE</h2>
+                <pre>
+                    <code class="code">
+                function noSpace(x){
+                let result;
+                result = x.replaceAll(' ','')
+                return result
+                }
+                    </code>
+            </pre>
+
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+
 </body>
 
 </html>
