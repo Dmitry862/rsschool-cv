@@ -58,10 +58,12 @@ h2 {
   font-size: 40px;
   color: blanchedalmond;
 }
-.text {
+p {
   font-size: 32px;
-  text-indent: 2em;
   color: white;
+}
+.text {
+  text-indent: 2em;
 }
 .contacts {
   display: flex;
@@ -101,4 +103,16 @@ li {
   align-items: center;
   margin: 30px 0 30px 0;
   gap: 20px;
+}
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  gap: 20px;
+}
+.lang_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
