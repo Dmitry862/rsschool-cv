@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0 auto;
   background-color: rgb(77, 77, 77);
+  min-width: 320px;
 }
 @font-face {
   font-family: 'GreatVibes';
   src: url(./assets/font/GreatVibes-Regular.ttf);
   font-weight: normal;
   font-style: normal;
+}
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 .navigation {
   padding: 20px 20px 20px 0;
@@ -31,7 +36,30 @@ body {
   color: aliceblue;
   transition: transform 0.8s ease;
 }
-a:hover {
+.menu_item:hover {
   transform: scale(1.2);
   color: red;
+}
+.aboutmyself {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  gap: 20px;
+}
+.photo {
+  border-radius: 50%;
+}
+h1 {
+  font-size: 56px;
+  color: blanchedalmond;
+}
+h2 {
+  font-size: 40px;
+  color: blanchedalmond;
+}
+.text {
+  font-size: 32px;
+  text-indent: 2em;
+  color: white;
 }
