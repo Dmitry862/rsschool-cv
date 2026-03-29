@@ -55,10 +55,12 @@ body {
 }
 h1 {
   font-size: 56px;
+  font-style: italic;
   color: blanchedalmond;
 }
 h2 {
   font-size: 40px;
+  font-style: italic;
   color: blanchedalmond;
 }
 p {
