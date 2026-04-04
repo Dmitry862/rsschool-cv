@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(77, 77, 77);
+  min-width: 320px;
+}
+@font-face {
+  font-family: 'GreatVibes';
+  src: url(./assets/font/GreatVibes-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navigation {
+  padding: 20px 20px 20px 0;
+}
+.nav_list {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  justify-content: end;
+  padding-right: 25px;
+}
+.menu_item {
+  display: flex;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'GreatVibes';
+  color: aliceblue;
+  transition: transform 0.8s ease;
+}
+.menu_item:hover {
+  transform: scale(1.2);
+  color: red;
+}
+.aboutmyself {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  gap: 20px;
+}
+.photo {
+  border-radius: 50%;
+}
+h1 {
+  font-size: 56px;
+  font-style: italic;
+  color: blanchedalmond;
+}
+h2 {
+  font-size: 40px;
+  font-style: italic;
+  color: blanchedalmond;
+}
+p {
+  font-size: 32px;
+  color: white;
+}
+.text {
+  text-indent: 2em;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts_list {
+  list-style-image: url(./assets/img/icons8.svg);
+  font-size: 32px;
+  color: white;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  gap: 20px;
+}
+li {
+  font-size: 32px;
+  color: white;
+}
+.code_examle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  gap: 20px;
+}
+.code {
+  font-size: 32px;
+  color: black;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  gap: 20px;
+}
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  gap: 20px;
+}
+.lang_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
